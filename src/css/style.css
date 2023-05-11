@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(32, 12, 44);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+}
+
+.info {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+input#fnum {
+  border: 1px solid black;
+  font-size: 1.3rem;
+  height: 20px;
+  width: 150px;
+}
+
+select {
+  border: 1px solid black;
+  margin-left: 32%;
+}
+
+select#flista {
+  width: 180px;
+  font-size: 1rem;
+}
+
+input.botao {
+  background-color: transparent;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+  transition: 0.3s all ease-in-out;
+}
+
+.botao2 {
+  background-color: transparent;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+  margin-left: 40%;
+  transition: 0.3s all ease-in-out;
+}
+
+.botao2:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.botao:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}

@@ -1,0 +1,33 @@
+@media(max-width:420px) {
+  section {
+    width: 300px;
+    height: auto;
+  }
+  select {
+  margin: 0 auto;
+  }
+  .botao2 {
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media(max-width:320px) {
+  section {
+    width: 260px;
+    height: auto;
+  }
+  select {
+  margin: 0 auto;
+  }
+  .botao2 {
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
